@@ -1,0 +1,116 @@
+score = 0
+
+print("Question 1:\n")
+print("How many hearts does the octopus have?")
+
+answer=input()
+
+if (answer =="3"):
+    score = score + 1
+    print("Great job!.Your score is:" + str(score))
+else:
+    print("Sorry the correct answer was:3.")
+
+print("Question 2:\n")
+print("Where is the capital of Australia?")
+
+answer=input()
+
+if (answer =="Canberra"):
+    score = score + 1
+    print("Great job!.Your score is:" + str(score))
+else:
+    print("Sorry the correct answer was:Canberra.")
+
+print("Question 3:\n")
+print("Which is the tallest buliding in the world?")
+
+answer=input()
+
+if (answer =="Burj Khalifa"):
+    score = score + 1
+    print("Great job!.Your score is:" + str(score))
+else:
+    print("Sorry the correct answer was:Burj Khalifa.")
+
+print("Question 4:\n")
+print("What is the highest mountain in the world?")
+
+answer=input()
+
+if (answer =="Mount Everest"):
+    score = score + 1
+    print("Great job!.Your score is:" + str(score))
+else:
+    print("Sorry the correct answer was:Mount Everest.")
+
+print("Question 5:\n")
+print("Where is the capital of Singapore?")
+
+answer=input()
+
+if (answer =="Singapore"):
+    score = score + 1
+    print("Great job!.Your score is:" + str(score))
+else:
+    print("Sorry the correct answer was:Singapore.")
+
+print("Question 6:\n")
+print("How many people are there in the world?")
+
+answer=input()
+
+if (answer =="8.3 billion"):
+    score = score + 1
+    print("Great job!.Your score is:" + str(score))
+else:
+    print("Sorry the correct answer was:8.3 billion.")
+
+print("Question 7:\n")
+print("What is the largest desert in the world?")
+
+answer=input()
+
+if (answer =="Sahara"):
+    score = score + 1
+    print("Great job!.Your score is:" + str(score))
+else:
+    print("Sorry the correct answer was:Sahara.")
+
+print("Question 8:\n")
+print("Which is the largest ocean on Earth?")
+
+answer=input()
+
+if (answer =="The Pacific Ocean"):
+    score = score + 1
+    print("Great job!.Your score is:" + str(score))
+else:
+    print("Sorry the correct answer was:The Pacific Ocean.")
+
+print("Question 9:\n")
+print("What is the name of the world's largest island?")
+
+answer=input()
+
+if (answer =="Greenland"):
+    score = score + 1
+    print("Great job!.Your score is:" + str(score))
+else:
+    print("Sorry the correct answer was:Greenland.")
+
+print("Question 10:\n")
+print("Which is the longest river in the world?")
+
+answer=input()
+
+if (answer =="The Nile River"):
+    score = score + 1
+    print("Great job!.Your score is:" + str(score))
+else:
+    print("Sorry the correct answer was:The Nile River.")
+
+if(score >=5):
+    print("Great job,your score was:" + str(score) +".You Pass")
+else:
+    print("Sorry,your score was:" +str(score)+ ".You Fail!")
